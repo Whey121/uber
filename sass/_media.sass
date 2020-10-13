@@ -95,7 +95,7 @@
         background-color: rgba(0,0,0, .8)
         transition: 0.6s all
         &__active
-            lefr: 0
+            left: 0
         &__item
             padding-right: 0
             border: none
@@ -122,8 +122,45 @@
             span
                 margin-bottom: -2px
                 &:nth-child(1)
-                    transform: transleteY(3px) rotate(-45deg)
+                    transform: translateY(3px) rotate(-45deg)
                 &:nth-child(2)
                     display: none
                 &:nth-child(3)
-                    transform: transleteY(3px) rotate(45deg)
+                    transform: translateY(3px) rotate(45deg)
+
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &__phone
+            display: block
+            margin-top: 10px
+            color: #ffffff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+
+        &__btn
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            display: block
+            margin-top: 10px
+
+    .promo
+        &__header
+            line-height: 45px
+
+    .car
+        min-height: 600px
+        padding: 40px 0
+        &__img
+            width: 100%
+            height: auto
+
+    // .advantage
+    //     &__block
+    //         flex-direction: column
+    //         align-items: center
